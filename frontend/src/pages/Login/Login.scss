@@ -1,0 +1,37 @@
+@import 'src/styles/variables.scss';
+
+.login-container {
+	overflow: hidden;
+	height: 100vh;
+	max-height: 100vh;
+	width: 100vw;
+	max-width: 100vw;
+	background-image: linear-gradient(45deg, #fff5a1, #fff496);
+
+	.login-form-container {
+		background-color: white;
+		max-width: 360px;
+		box-shadow: $awesome-box-shadow-1;
+		border-radius: 15px;
+	}
+
+	.show-password-container {
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 720px) {
+	.login-container {
+		.login-form-container {
+			height: 80vh;
+			min-height: 500px;
+			max-width: 85vw;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+.lead-color {
+	color: $lead-color;
+}
+
+.iron-color {
+	color: $iron-color;
+}
+
+.gray-color,
+.grey-color {
+	color: $gray-color;
+}
+
+.primary-color {
+	color: $primary-color;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.pointer-on-hover {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.success-custom-badge {
+	max-width: fit-content;
+	background: #eefff8;
+	color: #00ca81;
+	border-radius: $border-radius-default;
+}
+
+.favorite-icon {
+	color: #ff0051;
+}
+
+.router-min-full-height {
+	min-height: calc(100vh - 86px);
+}
+
+.user-selection-none {
+	user-select: none;
+}

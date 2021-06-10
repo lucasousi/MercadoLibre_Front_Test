@@ -1,0 +1,49 @@
+.pagination li.active > a,
+.pagination li.active > a:active,
+.pagination li.active > a:hover,
+.pagination li.active > a:focus,
+.pagination li.active > span,
+.pagination li.active > span:active,
+.pagination li.active > span:hover,
+.pagination li.active > span:focus {
+	color: white !important;
+	background-color: #0e6977 !important;
+	border-color: #0e6977 !important;
+}
+
+.page-item:first-child .page-link {
+	border-top-left-radius: unset;
+	border-top-left-radius: unset;
+	border-radius: unset;
+}
+
+.pagination li > a,
+.pagination li > span {
+	border: unset;
+}
+
+.pagination li > a,
+.pagination li > span {
+	color: #138496 !important;
+}
+
+.page-item.disabled .page-link {
+	color: gray !important;
+}
+
+.page-item:last-child .page-link {
+	border-top-left-radius: unset;
+	border-top-left-radius: unset;
+	border-radius: unset;
+}
+
+.pagination li > a:focus,
+.pagination li > a:hover,
+.pagination li > span:focus,
+.pagination li > span:hover {
+	color: #138496 !important;
+}
+
+.page-link:focus {
+	box-shadow: unset;
+}

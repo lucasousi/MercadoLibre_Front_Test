@@ -1,0 +1,31 @@
+@import 'src/styles/variables.scss';
+.header-container {
+	min-height: 50px;
+	background-color: white;
+	position: relative;
+	box-shadow: $awesome-box-shadow-3;
+
+	.navbar-container {
+		.ml-logo {
+			width: 28vw;
+			max-width: 150px;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.header-container {
+		.logo-container {
+			margin: 2rem 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		.navbar-container {
+			.ml-logo {
+				width: max-content;
+				max-width: 60vw;
+			}
+		}
+	}
+}

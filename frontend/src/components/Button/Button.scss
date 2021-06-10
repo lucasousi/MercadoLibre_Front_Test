@@ -1,0 +1,143 @@
+@import 'src/styles/variables.scss';
+
+.custom-button-container {
+	.custom-button {
+		border: none;
+		border-radius: $border-radius-default;
+		padding: 8px 10px;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+			border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+		&.variant-primary {
+			font-weight: 600;
+			&:focus {
+				box-shadow: 0 0 0 0.2rem $primary-color-border;
+			}
+
+			&:not(.outlined) {
+				color: white;
+				background: $primary-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: $primary-color-hover;
+				}
+
+				&:hover {
+					border: none;
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&.outlined {
+				color: $primary-color;
+				background: white;
+				border: 2px solid $primary-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: white;
+				}
+
+				&:hover {
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&:disabled {
+				background-color: $disabled-color;
+				pointer-events: none;
+			}
+		}
+
+		&.variant-success {
+			font-weight: 600;
+			&:focus {
+				box-shadow: 0 0 0 0.2rem $success-color-border;
+			}
+
+			&:not(.outlined) {
+				color: white;
+				background: $success-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: $success-color-hover;
+				}
+
+				&:hover {
+					border: none;
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&.outlined {
+				color: $success-color;
+				background: white;
+				border: 2px solid $success-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: white;
+				}
+
+				&:hover {
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&:disabled {
+				background-color: $disabled-color;
+				pointer-events: none;
+			}
+		}
+
+		&.variant-iron {
+			font-weight: 600;
+			&:focus {
+				box-shadow: 0 0 0 0.2rem $iron-color-border;
+			}
+
+			&:not(.outlined) {
+				color: white;
+				background: $iron-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: $iron-color-hover;
+				}
+
+				&:hover {
+					border: none;
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&.outlined {
+				color: $iron-color;
+				background: white;
+				border: 2px solid $iron-color;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					background-color: white;
+				}
+
+				&:hover {
+					box-shadow: $awesome-box-shadow-1;
+				}
+			}
+
+			&:disabled {
+				background-color: $disabled-color;
+				pointer-events: none;
+			}
+		}
+	}
+}
