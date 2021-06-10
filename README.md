@@ -8,7 +8,7 @@ Seguem orientações para execução do sistema:
 npm i
 ```
 
-2º Crie o arquivo environment, chamado .env.local com o seguinte conteúdo:
+2º Crie o arquivo environment na raiz da pasta frontend, chamado .env.local com o seguinte conteúdo:
 
 ```
 REACT_APP_API_URL=http://localhost:3001/api
